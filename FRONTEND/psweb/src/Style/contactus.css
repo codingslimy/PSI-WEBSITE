@@ -1,0 +1,163 @@
+.appContact {
+  text-align: center;
+  background-color: #002333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+.pane{
+  flex-direction: row;
+  display: flex;
+}
+.header {
+  background-color: #333;
+  color: white;
+}
+
+.nav {
+  background-color: #051E29;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 0;
+  position: sticky;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navUl {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.navLi {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.loginButton {
+  background-color: #002333;
+  color: #00ff84;
+  padding: 10px 15px;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.contactSection {
+  background-color: #053047;
+  padding: 20px 0;
+}
+
+.contactHeading {
+  color: white;
+}
+
+.detailsSection {
+  background-color: #063049;
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  position: relative;
+  flex: 3;  
+  /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+
+}
+
+.detailsField {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.dbox{
+    margin-top: 7%;
+    margin-left: 9%;
+    text-align: left;
+    width: 680px;
+}
+.footer {
+  background-color: #053047;
+  color: white;
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+  /* width: ; */
+  /* z-index: 1; */
+}
+
+.verticalBox {
+  height: 90vh; /* Adjust the height as needed */
+  width: 20vw; /* Adjust the width as needed */
+  background-color: #051e29;
+  position: relative ;
+  left: 0;
+  top: 0;
+  color: white;
+  padding: 50px;
+  line-height: 1.5;
+  flex: 1;
+}
+
+/* .footerCenter ul {
+  list-style-type: none;
+  padding: 0;
+} */
+
+.footerCenter li {
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+
+}
+
+input{
+  /* border: none; */
+  background-color: #063049; 
+  border-bottom-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  margin-bottom: 17px;
+  margin-left: 87px;
+  width: 392px;
+  color: white;
+}
+
+input[type='textarea']::placeholder {
+  position: relative;
+  top: -125px;
+  left: 10px;
+  color: white;
+}
+#myFileInput{
+  position: relative;
+  top: 0px;
+  left: -11.5%;
+}
+.submit{
+  background-color: #00ff84;
+  border-radius: 10px;
+
+}

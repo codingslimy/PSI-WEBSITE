@@ -1,0 +1,112 @@
+.app {
+  text-align: center;
+  background-color: #002333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .headingcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5%;
+  }
+  .heading{
+    display: inline;
+    font-size: 45px;
+    color: white;
+  }
+  .nav {
+    background-color: #053047;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+  }
+  .logo {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sliderContainer {
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    margin-top: 0;
+    background-color: wheat;
+  }
+  .sliderContainer p{
+    margin-top: 19%;
+    font-size: 30px;
+  }
+  .sliderImage {
+    max-width: 100%;
+    max-height: 70vh;
+  }
+  
+  .clubSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .clubCircle {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .clubImageContainer {
+    position: relative;
+  }
+  
+  .clubImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .joinButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .para{
+    padding-left: 109px;
+    padding-right: 109px;
+    color: white;
+    font-size: 21px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .para1{
+    padding-left: 109px;
+    padding-right: 109px;
+    line-height: 1.5;
+  }

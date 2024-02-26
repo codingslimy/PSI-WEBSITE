@@ -1,0 +1,89 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formBox {
+    display: flex;
+    flex-direction: row;
+    background: #f9f9f9;
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 650px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .inputBox {
+    margin-bottom: 20px;
+    width: 340px;
+    font-size: 16px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .rememberForgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .registerLink {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .loginRegister {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .leftSection {
+    width: calc(100% - 100px);
+    margin-right: 20px;
+    flex: 2;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+  }
+  
+  .rightSection {
+    width: 9px;
+    background-color: #003a55;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    flex: 2;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.5);
+  }
