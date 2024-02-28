@@ -1,0 +1,51 @@
+.nav {
+    background-color: #053047;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width:1480px;
+    position: sticky;
+    top: 0px;
+    /* z-index: 1; */
+  }
+  
+  .logo {
+    margin-top: 25px;
+    padding-left: 80px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .loginButton {
+    background-color: #002333;
+    color: #00ff84;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+ 

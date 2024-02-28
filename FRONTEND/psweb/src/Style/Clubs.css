@@ -18,32 +18,9 @@
     font-size: 45px;
     color: white;
   }
-  .nav {
-    background-color: #053047;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
-    position: sticky;
-    top: 0px;
-  }
-  .logo {
-    margin-left: 20px;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
   
-  .footer {
-    background-color: #333;
-    color: white;
-    padding: 30px;
-    width: 96%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  
+  
   
   .sliderContainer {
     width: 100%;
