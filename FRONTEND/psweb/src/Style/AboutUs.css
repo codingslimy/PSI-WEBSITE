@@ -32,34 +32,6 @@
 }
 
 /* Navigation styles */
-.nav {
-  background-color: #053047;
-  color: white;
-  padding: 20px;
-  display: flex;
-  overflow: hidden;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-  width: 98%;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
-}
-.logo {
-  margin-left: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-  
-.loginButton {
-  background-color: #002333;
-  color: #00ff84;
-  padding: 10px 15px;
-  border-radius: 0px;
- cursor: pointer;
- margin-right: 20px;
-}
 
 
 /* About section styles */
@@ -205,14 +177,6 @@
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 10px;
-}
-.footer {
-  background-color: #053047;
-  color: white;
-  padding: 30px;
-  bottom: 0;
-  width: 95vw;
-  padding-left: 50px;
 }
 
 /* Footer styles */
