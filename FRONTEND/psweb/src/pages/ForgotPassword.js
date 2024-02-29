@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../pages/Login';
 import '../Style/ForgotPassword.css';
 
 class ForgotPassword extends Component {
@@ -68,7 +69,7 @@ class ForgotPassword extends Component {
                         </button>
                     </form>
                     <p className="new">
-                        New Here? <a style={{ color: 'green' }} href='#'><b>Sign Up</b></a>
+                        New Here? <a style={{ color: 'green' }} href='/Login'><b>Sign Up</b></a>
                     </p>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Style/Login.css'; // Import the CSS file
 import { redirect } from 'react-router-dom';
+import Forgot from '../pages/ForgotPassword';
 
 const LoginForm = () => {
     const [email, setEmail] = useState('');
@@ -26,6 +27,10 @@ const LoginForm = () => {
 
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
+
+    const handleToggleForgotPassword = () => {
+        setShowForgotPassword(true);
+     };
 
         try {
             const response = await fetch('http://localhost:5000/login', {
@@ -251,7 +256,7 @@ const LoginForm = () => {
                                     />
                                     Remember me
                                 </label>
-                                <a href="#" className="registerLink" onClick={handleToggleForgotPassword}>
+                                <a href="/forgot" className="registerLink" onClick={handleToggleForgotPassword}>
                                     Forgot Password?
                                 </a>
                             </div>
@@ -278,9 +283,9 @@ const LoginForm = () => {
                     />
 
                     <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '80px' }}>
-                        <img src='https://cdn.discordapp.com/attachments/1205044912400371715/1207606690388905984/Google_Icons-09-512.png?ex=65e0425f&is=65cdcd5f&hm=e48c91d65b1ac80d51593a4fb80e7c5ba36c1d60c23f815a34c8b52836afa484&' alt="Image description" style={{ width: '45%', height: 'auto', paddingRight: '0px', paddingLeft: '40px' }} />
+                        <img src='https://cdn.discordapp.com/attachments/1205044912400371715/1207606690388905984/Google_Icons-09-512.png?ex=65e0425f&is=65cdcd5f&hm=e48c91d65b1ac80d51593a4fb80e7c5ba36c1d60c23f815a34c8b52836afa484&' alt=" description" style={{ width: '45%', height: 'auto', paddingRight: '0px', paddingLeft: '40px' }} />
                         <div style={{ borderLeft: '2px solid white', height: '40px', margin: '0 20px ' }}></div>
-                        <img src='https://cdn.discordapp.com/attachments/1205756212445192263/1207609856513679431/image_5.png?ex=65e04552&is=65cdd052&hm=0d052c3aebd7b7df75f5f65ad8532f9fdf8f665d78f4ca2c39aa02d6522862e9&' alt="Image description" style={{ width: '25%', height: 'auto', }}></img>
+                        <img src='https://cdn.discordapp.com/attachments/1205756212445192263/1207609856513679431/image_5.png?ex=65e04552&is=65cdd052&hm=0d052c3aebd7b7df75f5f65ad8532f9fdf8f665d78f4ca2c39aa02d6522862e9&' alt=" description" style={{ width: '25%', height: 'auto', }}></img>
                     </div>
                 </div>
             </div>

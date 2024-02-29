@@ -1,4 +1,4 @@
-// ResetPassword.js
+ // ResetPassword.js
 import React, { useState } from 'react';
 import "../Style/ResetPassword.css";
 
@@ -24,8 +24,9 @@ const ResetPassword = () => {
 
     return (
         <div className="container">
-            <h2>Reset Password</h2>
-
+            <div className="topSection1">
+                    <h2>Reset Password?</h2>
+                </div>
             <input
                 type="password"
                 placeholder="New Password"
